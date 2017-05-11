@@ -3,10 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <UserSecretsId>aspnet-WebAppCoreEmpty-5b488c59-5452-455f-beee-658c7d645413</UserSecretsId>
+  </PropertyGroup>
   <ItemGroup>
     <Content Include="wwwroot\css\site.css" />
+    <Content Include="wwwroot\css\site.min.css" />
     <Content Include="wwwroot\js\site.js" />
+    <Content Include="wwwroot\js\site.min.js" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -28,7 +32,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\AccountViewModels\" />
     <Folder Include="Models\ManageViewModels\" />
-    <Folder Include="Views\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Manage\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
