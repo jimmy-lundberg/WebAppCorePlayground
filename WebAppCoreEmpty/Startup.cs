@@ -9,6 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using WebAppCoreEmpty.Data;
+using WebAppCoreEmpty.Models;
+using WebAppCoreEmpty.Services;
 
 namespace WebAppCoreEmpty
 {
